@@ -1,0 +1,124 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+  font-size: 14px;
+}
+
+.auth-links a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.search-bar {
+  display: flex;
+}
+
+.search-bar input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  width: 250px;
+}
+
+.search-bar button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 20px;
+  font-size: 14px;
+}
+
+.footer-columns {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.footer-columns h4 {
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+.footer-columns a {
+  color: #ccc;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.subscribe {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.subscribe input {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  width: 250px;
+}
+
+.subscribe button {
+  padding: 8px 16px;
+  background-color: #ffcc00;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 20px;
+  color: #bbb;
+}
